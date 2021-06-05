@@ -9,12 +9,12 @@ def estimate_pi(num_points):
     for i in range(num_points):
         x = random.uniform(0, 1)
         y = random.uniform(0, 1)
-        distance = x**2 + y**2
+        distance = x ** 2 + y ** 2
         if distance <= 1:
             points_in_circle += 1
         points_of_total += 1
 
-    return 4 * points_in_circle/points_of_total
+    return 4 * points_in_circle / points_of_total
 
 
 # %%
