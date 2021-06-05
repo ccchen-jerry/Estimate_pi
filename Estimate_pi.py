@@ -19,6 +19,7 @@ def estimate_pi(num_points):
 
 # %%
 estimate_pi(100)
+
 # %%
 estimate_pi(10000)
 
